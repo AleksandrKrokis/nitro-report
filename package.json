@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "preview": "npx nitropack build && node .output/server/index.mjs",
+    "preview:node": "NITRO_PRESET=node npx nitropack build && node server.mjs"
+  },
+  "dependencies": {
+    "nitropack": "latest"
+  }
+}
